@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre - se!</title>
+    <link rel="shortcut icon" href="dp.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tudo">
+        <img src="dough.png" alt="" class="dough">
+        <h1 class="titulo">CRIE SUA CONTA!</h1>
+
+
+        <h2 class="subtitulo">Preencha seus dados para começar sua jornada!</h2>
+
+        <hr>
+
+        <form action="/Enviar" method="post">
+
+            <label for="nome" class="cadastro" >Nome Completo:</label>
+            <br>
+            <input type="text" id="nome" name="nome" required class="input2">
+
+            <br>
+
+            <label for="password" class="cadastro">Senha:</label>
+            <br>
+            <input type="password" id="password" name="password" required class="input2">
+
+            <br>
+
+            <label for="email" class="cadastro">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required class="input2">
+
+            <br>
+
+            <div class="meio">
+                <div class="meio2">
+                 <label for="data" class="cadastro" >Data de Nascimento:</label>
+                 <br>
+                 <input type="date" id="data" name="data" required class="input2">
+                </div>
+            
+            <br>
+           
+                <div class="meio2">
+                    <label for="gender" >Gênero:</label>
+                    <br>
+                <select name="gender" id="gender" required class="input2">
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outros">Outros</option>
+                    <option value="prefiro-não-dizer">Prefiro não dizer</option>
+                </select>
+                </div>
+            </div>
+            <br>
+
+            <input type="checkbox" id="termo" name="termo" >
+            <label for="termo">Aceito todos os <a>termos e condições</a>!</label>
+
+            <br>
+
+            <button type="submit" class="botao">Cadastre-se!</button>
+        </div>    
+    </form>
+    </div>
+    
+</body>
+</html>
