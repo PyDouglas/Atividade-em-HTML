@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="shortcut icon" href="dp.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tudo">
+        <img src="dough.png" alt="" class="dough">
+        <h1 class="titulo">BEM-VINDO DE VOLTA!</h1>
+
+        <h2 class="subtitulo">Entre com seus dados para continuar sua jornada!</h2>
+
+        <hr>
+
+        <form action="/Entrar" method="post">
+
+            <label for="email" class="cadastro">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required class="input2">
+
+            <br>
+
+            <label for="password" class="cadastro">Senha:</label>
+            <br>
+            <input type="password" id="password" name="password" required class="input2">
+
+            <br>
+
+            <div class="opcoes">
+                <div class="lembrar">
+                    <input type="checkbox" id="lembrar" name="lembrar">
+                    <label for="lembrar">Lembrar de mim</label>
+                </div>
+                <a href="#" class="esqueci">Esqueci minha senha</a>
+            </div>
+
+            <br>
+
+            <button type="submit" class="botao">Entrar</button>
+
+            <p class="rodape">Não tem uma conta? <a href="#">Cadastre-se!</a></p>
+
+        </form>
+    </div>
+
+</body>
+</html>
